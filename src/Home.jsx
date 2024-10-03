@@ -79,14 +79,14 @@ const Home = () => {
       <div className='h-[100vh] w-full flex md:flex-row flex-col gap-2 p-7 relative justify-around items-center '>
               <div className='card1 md:w-max p-2 bg-amber-300  md:h-max hover:scale-95  transition-all ease-linear rounded-lg relative' onMouseEnter={()=>handleHomeNameMen(true)}
               onMouseLeave={()=>handleHomeNameMen(false)}>
-                <img src="./public/Home/1.png" alt="" className="hover:  h-full w-full object-contain transition-all ease-linear rounded-lg" />
+                <img src="./Home/1.png" alt="" className="hover:  h-full w-full object-contain transition-all ease-linear rounded-lg" />
                   <button className='absolute text-white hover:scale-110 transition-all md:right-16 right-10 flex gap-2 items-center  bottom-14 rounded-lg border-[1px] px-4 py-2 '><NavLink to="/men">Show now</NavLink><FaArrowRight/></button>
                 
               </div>
               <div className='card2 md:w-max p-2 bg-amber-300  relative  md:h-max hover:scale-95 transition-all ease-linear rounded-lg'
               onMouseEnter={()=>handleHomeNameWomen(true)}
               onMouseLeave={()=>handleHomeNameWomen(false)}>
-                <img src="./public/Home/2.png" alt="" className="hover:  h-full w-full object-contain transition-all ease-linear rounded-lg" />
+                <img src="./Home/2.png" alt="" className="hover:  h-full w-full object-contain transition-all ease-linear rounded-lg" />
                 <button className='absolute text-white md:left-12 left-6 bottom-14 flex gap-2 items-center hover:scale-110 transition-all  rounded-lg border-[1px] px-4 py-2 '><NavLink to="/women">Show now </NavLink><FaArrowRight/></button>
               </div>
               {/* <div className='card_text absolute w-1/4 -z-10 h-44 flex justify-center items-center'> */}
