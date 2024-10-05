@@ -37,7 +37,7 @@ export const MensDetails = () => {
     const handleCardLiked = (event) =>{
         handleLiked(event);
         setCardLiked(!liked);
-    }   
+    } 
 
     const handleSizeSelect = (size) =>{
         setWhichSize(!whichSize);
@@ -110,7 +110,7 @@ export const MensDetails = () => {
                     </div>
                     <div className="flex w-5/6 flex-col mt-4 relative gap-2 md:mt-0">
                         <h1 className="font-semibold text-xl uppercase ">{name}</h1>
-                        <h1 className="font-normal text-base capitalize">{description}</h1>
+                        <h1 className="font-normal text-sm capitalize ">{description}</h1>
                         <p className="text-green-600 font-semibold text-xs">Special price</p>
                         <h1 className="flex gap-3 text-2xl items-center font-medium">₹{price} <p className="text-sm line-through text-green-600">₹{ActualPrice}</p><p className="text-sm text-green-600">{(((ActualPrice-price)/ActualPrice)*100).toFixed(0)}% Off</p> <IoIosInformationCircleOutline className="I-card-i text-slate-400" onMouseEnter={handleIButton}/></h1>
 

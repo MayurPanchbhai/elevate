@@ -101,7 +101,7 @@ export const WomenDetails = () => {
                 </div>
                 <div className="md:w-6/12 w-full  flex justify-center md:block" >
                     <div className="flex justify-end">
-                        <button className="flex-none absolute md:static top-20 left-10 md:right-5 flex items-center justify-center w-8 h-8 md:w-9 md:h-9 rounded-full  text-white border bg-slate-300  mt-2 md:mt-0" aria-label="Like" onClick={()=>handleCardLiked (id)}>
+                        <button className="flex-none absolute md:static top-20 left-10 md:right-5 flex items-center justify-center w-8 h-8 md:w-9 md:h-9 rounded-full  text-white border bg-slate-300  mt-2 md:mt-0" aria-label="Like" onClick={()=>handleCardLiked(id)}>
                     <svg width="20" height="20" fill="currentColor" aria-hidden="false">
                         <path fillRule="evenodd" clipRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"  className={`${cardLiked?"text-blue-800":""}`} />
                     </svg>
@@ -110,7 +110,7 @@ export const WomenDetails = () => {
                     </div>
                     <div className="flex w-5/6 flex-col mt-4 relative gap-2 md:mt-0">
                         <h1 className="font-semibold text-xl uppercase ">{name}</h1>
-                        <h1 className="font-normal text-base capitalize">{description}</h1>
+                        <h1 className="font-normal text-sm capitalize">{description}</h1>
                         <p className="text-green-600 font-semibold text-xs">Special price</p>
                         <h1 className="flex gap-3 text-2xl items-center font-medium">₹{price} <p className="text-sm line-through text-green-600">₹{ActualPrice}</p><p className="text-sm text-green-600">{(((ActualPrice-price)/ActualPrice)*100).toFixed(0)}% Off</p> <IoIosInformationCircleOutline className="I-card-i text-slate-400" onMouseEnter={handleIButton}/></h1>
 

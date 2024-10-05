@@ -96,24 +96,22 @@ export const DataProvider = ({children}) => {
             images:{
                 ImgMain:[
                     "./MenTshirt/black t shirt.png",
-                    "./MenTshirt/blue t shirt.png",
-                    "./MenTshirt/blue t shirt.png",
-                    "./MenTshirt/IMG_20240918_115718_748.jpg"
+                    "./MenTshirt/black t shirt.png"
                 ],
 
             },
             type:"T Shirt",
-            name:"Utility J1 ",
-            price:"289",
-            ActualPrice:"1999",
+            name:"Classic Edge",
+            price:"699",
+            ActualPrice:"799",
             color:"black",
             brand:"abibas",
-            description:"made with an the love of an each plant",
+            description:"A perfect blend of timeless style and modern fit. The Classic Edge T-shirt offers a versatile look for any occasion, keeping you sharp and comfortable all day.",
             id:"1",
             ImSrc:"./MenTshirt/black t shirt.png",
             sizes:["S","M","XL","2XL"],
             liked:false,
-            rating:4.9,
+            rating:4.3,
             root:"men",
             selectedSize:"",
             quantity:1
@@ -123,23 +121,21 @@ export const DataProvider = ({children}) => {
             images:{
                 ImgMain:[
                     "./MenTshirt/blue t shirt.png",
-                    "./MenTshirt/IMG_20240918_115718_748.jpg",
                     "./MenTshirt/black t shirt.png",
-                    "./MenTshirt/IMG_20240918_115718_748.jpg"
                 ],
             },
             type:"T Shirt",
-            name:"Utility J3",
-            price:"150",
-            ActualPrice:"1400",
+            name:"Street Mode",
+            price:"690",
+            ActualPrice:"1000",
             color:"blue",
             brand:"puma",
-            description:"made with an the love of an each plant",
+            description:"Inspired by urban culture, the Street Mode T-shirt is your go-to for casual days. It brings together a relaxed fit with edgy streetwear vibes.",
             id:"3",
             ImSrc:"./MenTshirt/blue t shirt.png",
             sizes:["S","M","L","XL","2XL" ,"LG"],
             liked:false,
-            rating:3.5,
+            rating:3.9,
             root:"men",
             selectedSize:"",
             quantity:1
@@ -149,18 +145,17 @@ export const DataProvider = ({children}) => {
             images:{
                 ImgMain:[
                     "./MenTshirt/fef534kkltc.png",
-                    "./MenTshirt/black t shirt.png",
-                    "./MenTshirt/blue t shirt.png",
-                    "./MenTshirt/IMG_20240918_115718_748.jpg"
+                    "./MenTshirt/fef534kkltc.png",
+                    "./MenTshirt/black t shirt.png"
                 ],
             },
             type:"T Shirt",
-            name:"Utility J4",
-            price:"90",
-            ActualPrice:"100",
+            name:"Bold Threads",
+            price:"590",
+            ActualPrice:"890",
             color:"Green",
             brand:"puma",
-            description:"made with an the love of an each plant",
+            description:"Stand out with Bold Threads. This T-shirt is designed for those who aren't afraid to make a statement, combining bold graphics with a strong, confident fit.",
             id:"4",
             ImSrc:"./MenTshirt/fef534kkltc.png",
             sizes:["M","L","XL",],
@@ -180,17 +175,17 @@ export const DataProvider = ({children}) => {
                 ],
             },
             type:"T Shirt",
-            name:"Utility J5",
-            price:"69",
-            ActualPrice:"699",
+            name:"Minimalist Fit",
+            price:"769",
+            ActualPrice:"899",
             color:"red",
             brand:"rasna",
-            description:"made with an the love of an each po",
+            description:"Less is more. The Minimalist Fit T-shirt is all about simplicity and clean lines, making it an essential wardrobe piece for a sleek, effortless look.",
             id:"5",
             ImSrc:"./MenTshirt/hdagflaafshdfyte.png",
             sizes:["S","L","XL","2XL"],
             liked:false,
-            rating:3.5,
+            rating:4.3,
             root:"men",
             selectedSize:"",
             quantity:1
@@ -200,18 +195,16 @@ export const DataProvider = ({children}) => {
             images:{
                 ImgMain:[
                     "./MenTshirt/mareooonbran.png",
-                    "./MenTshirt/black t shirt.png",
-                    "./MenTshirt/blue t shirt.png",
-                    "./MenTshirt/IMG_20240918_115718_748.jpg"
+                    "./MenTshirt/mareooonbran.png"
                 ],
             },
             type:"T Shirt",
-            name:"Utility J7",
-            price:"110",
-            ActualPrice:"180",
+            name:"Urban Essential",
+            price:"1190",
+            ActualPrice:"1800",
             color:"maroon",
             brand:"rasna",
-            description:"made with an the love of an each po",
+            description:"For the modern man on the go, the Urban Essential T-shirt provides comfort and style in equal measure. This piece is perfect for everyday wear, whether you're in the city or on the move.",
             id:"7",
             ImSrc:"./MenTshirt/mareooonbran.png",
             sizes:["S","M","L",],
@@ -226,23 +219,21 @@ export const DataProvider = ({children}) => {
             images:{
                 ImgMain:[
                     "./MenTshirt/wteyqtwr.png",
-                    "./MenTshirt/black t shirt.png",
-                    "./MenTshirt/blue t shirt.png",
-                    "./MenTshirt/IMG_20240918_115718_748.jpg"
+                    "./MenTshirt/wteyqtwr.png"
                 ],
             },
             type:"T Shirt",
-            name:"Utility J7",
-            price:"110",
-            ActualPrice:"180",
+            name:"Alpha Vibe",
+            price:"457",
+            ActualPrice:"500",
             color:"grey",
             brand:"rasna",
-            description:"made with an the love of an each po",
+            description:"Elevate your wardrobe with Alpha Vibe. Designed with a premium cut and feel, this T-shirt exudes confidence and power, making it a top choice for those who lead the pack.",
             id:"8",
             ImSrc:"./MenTshirt/wteyqtwr.png",
             sizes:["S","M","L",],
             liked:false,
-            rating:3.5,
+            rating:8,
             root:"men",
             selectedSize:"",
             quantity:1
@@ -252,18 +243,16 @@ export const DataProvider = ({children}) => {
             images:{
                 ImgMain:[
                     "./MenTshirt/e7rafdtaewf.png",
-                    "./MenTshirt/black t shirt.png",
-                    "./MenTshirt/blue t shirt.png",
-                    "./MenTshirt/IMG_20240918_115718_748.jpg"
+                    "./MenTshirt/e7rafdtaewf.png"
                 ]
             },
             type:"T Shirt",
-            name:"Utility J2",
+            name:"Prime Cut",
             price:"1100",
             ActualPrice:"1400",
             color:"orange",
             brand:"abibas",
-            description:"made with an the love of an each plant",
+            description:"Crafted with precision, the Prime Cut T-shirt offers a superior fit and finish. This premium piece is made for those who appreciate high-quality fabric and design.",
             id:"2",
             ImSrc:"./MenTshirt/e7rafdtaewf.png",
             sizes:["S","XL","2XL"],
@@ -278,23 +267,21 @@ export const DataProvider = ({children}) => {
             images:{
                 ImgMain:[
                     "./MenTshirt/yreloewer.png",
-                    "./MenTshirt/black t shirt.png",
-                    "./MenTshirt/blue t shirt.png",
-                    "./MenTshirt/IMG_20240918_115718_748.jpg"
+                    "./MenTshirt/yreloewer.png"
                 ],
             },
             type:"T Shirt",
-            name:"Utility J7",
-            price:"110",
-            ActualPrice:"180",
+            name:"Everyday Comfort",
+            price:"1290",
+            ActualPrice:"1490",
             color:"yellow",
             brand:"rasna",
-            description:"made with an the love of an each po",
+            description:"Your go-to T-shirt for everyday wear. With its soft fabric and relaxed fit, Everyday Comfort is designed to keep you feeling great from morning till night.",
             id:"7fad",
             ImSrc:"./MenTshirt/yreloewer.png",
             sizes:["S","M","L",],
             liked:false,
-            rating:3.5,
+            rating:5,
             root:"men",
             selectedSize:"",
             quantity:1
@@ -309,19 +296,17 @@ export const DataProvider = ({children}) => {
             images:{
                 ImgMain:[
                     "./WomenTshirt/875wrh.png",
-                    "./MenTshirt/blue t shirt.png",
-                    "./MenTshirt/blue t shirt.png",
-                    "./MenTshirt/IMG_20240918_115718_748.jpg"
+                    "./WomenTshirt/875wrh.png"
                 ],
 
             },
-            type:"T Shirt",
-            name:"Utility J1 ",
-            price:"289",
+            type:"Jacket",
+            name:"Graceful Vibe",
+            price:"1289",
             ActualPrice:"1999",
-            color:"black",
+            color:"Green",
             brand:"abibas",
-            description:"made with an the love of an each plant",
+            description:"The Graceful Vibe T-shirt combines comfort with understated elegance. Its flattering silhouette and smooth fabric make it an ideal choice for a relaxed yet sophisticated look.",
             id:"875wrh",
             ImSrc:"./WomenTshirt/875wrh.png",
             sizes:["S","M","XL","2XL"],
@@ -336,18 +321,16 @@ export const DataProvider = ({children}) => {
             images:{
                 ImgMain:[
                     "./WomenTshirt/bangerye.png",
-                    "./MenTshirt/IMG_20240918_115718_748.jpg",
-                    "./MenTshirt/black t shirt.png",
-                    "./MenTshirt/IMG_20240918_115718_748.jpg"
+                    "./WomenTshirt/bangerye.png"
                 ],
             },
             type:"T Shirt",
-            name:"Utility J3",
-            price:"150",
-            ActualPrice:"1400",
-            color:"blue",
+            name:"Effortless Glam",
+            price:"890",
+            ActualPrice:"1500",
+            color:"white",
             brand:"puma",
-            description:"made with an the love of an each plant",
+            description:"Elevate your casual wardrobe with the Effortless Glam T-shirt. Featuring a flattering cut and a subtle sparkle, it’s designed to add a hint of glamour to your everyday look.",
             id:"bangerye",
             ImSrc:"./WomenTshirt/bangerye.png",
             sizes:["S","M","L","XL","2XL" ,"LG"],
@@ -362,18 +345,16 @@ export const DataProvider = ({children}) => {
             images:{
                 ImgMain:[
                     "./WomenTshirt/dfagf.png",
-                    "./MenTshirt/black t shirt.png",
-                    "./MenTshirt/blue t shirt.png",
-                    "./MenTshirt/IMG_20240918_115718_748.jpg"
+                    "./WomenTshirt/dfagf.png"
                 ],
             },
             type:"T Shirt",
-            name:"Utility J4",
-            price:"90",
-            ActualPrice:"100",
-            color:"Green",
+            name:"Serene Style",
+            price:"900",
+            ActualPrice:"1000",
+            color:"grey",
             brand:"puma",
-            description:"made with an the love of an each plant",
+            description:"Embrace tranquility with the Serene Style T-shirt. Its soft, flowing fabric and relaxed fit make it perfect for unwinding while maintaining a polished appearance.",
             id:"dfagf",
             ImSrc:"./WomenTshirt/dfagf.png",
             sizes:["M","L","XL",],
@@ -388,17 +369,16 @@ export const DataProvider = ({children}) => {
             images:{
                 ImgMain:[
                     "./WomenTshirt/etaobdfoag.png",
-                    "./WomenTshirt/etaobdfoag.png",
-                    "./MenTshirt/black t shirt.png",
+                    "./WomenTshirt/etaobdfoag.png"
                 ],
             },
-            type:"T Shirt",
-            name:"Utility J5",
-            price:"69",
-            ActualPrice:"699",
-            color:"red",
+            type:"Jacket",
+            name:"Modern Muse",
+            price:"599",
+            ActualPrice:"799",
+            color:"white",
             brand:"rasna",
-            description:"made with an the love of an each po",
+            description:"The Modern Muse T-shirt is designed for the woman who leads with style and grace. With its sleek design and flattering silhouette, it’s a perfect match for a modern, fashion-forward wardrobe.",
             id:"etaobdfoag",
             ImSrc:"./WomenTshirt/etaobdfoag.png",
             sizes:["S","L","XL","2XL"],
@@ -413,18 +393,16 @@ export const DataProvider = ({children}) => {
             images:{
                 ImgMain:[
                     "./WomenTshirt/mynaluv.png",
-                    "./MenTshirt/black t shirt.png",
-                    "./MenTshirt/blue t shirt.png",
-                    "./MenTshirt/IMG_20240918_115718_748.jpg"
+                    "./WomenTshirt/mynaluv.png"
                 ],
             },
-            type:"T Shirt",
-            name:"Utility J7",
-            price:"110",
-            ActualPrice:"180",
-            color:"maroon",
+            type:"Dress",
+            name:"Chic Comfort",
+            price:"1290",
+            ActualPrice:"1400",
+            color:"red",
             brand:"rasna",
-            description:"made with an the love of an each po",
+            description:"Look chic while staying comfortable. The Chic Comfort Dress offers a perfect balance of style and ease, making it your go-to for casual outings or cozy days in. With its relaxed fit and versatile design, it's perfect for any occasion where you want to feel effortlessly stylish.",
             id:"mynaluv",
             ImSrc:"./WomenTshirt/mynaluv.png",
             sizes:["S","M","L",],
@@ -439,23 +417,21 @@ export const DataProvider = ({children}) => {
             images:{
                 ImgMain:[
                     "./WomenTshirt/tyepntner.png",
-                    "./MenTshirt/black t shirt.png",
-                    "./MenTshirt/blue t shirt.png",
-                    "./MenTshirt/IMG_20240918_115718_748.jpg"
+                    "./WomenTshirt/tyepntner.png"
                 ],
             },
             type:"T Shirt",
-            name:"Utility J7",
-            price:"110",
-            ActualPrice:"180",
-            color:"grey",
+            name:"Simple Grace",
+            price:"1490",
+            ActualPrice:"1680",
+            color:"pink",
             brand:"rasna",
-            description:"made with an the love of an each po",
+            description:"The Simple Grace T-shirt is all about minimalism and beauty. This elegant tee provides a clean, refined look, perfect for those who appreciate a subtle yet stylish appearance.",
             id:"tyepntner",
             ImSrc:"./WomenTshirt/tyepntner.png",
             sizes:["S","M","L",],
             liked:false,
-            rating:3.5,
+            rating:4.6,
             root:"women",
             selectedSize:"",
             quantity:1
@@ -465,18 +441,16 @@ export const DataProvider = ({children}) => {
             images:{
                 ImgMain:[
                     "./WomenTshirt/unaa.png",
-                    "./MenTshirt/black t shirt.png",
-                    "./MenTshirt/blue t shirt.png",
-                    "./MenTshirt/IMG_20240918_115718_748.jpg"
+                    "./WomenTshirt/unaa.png"
                 ]
             },
             type:"T Shirt",
-            name:"Utility J2",
+            name:"Effortless Style",
             price:"1100",
             ActualPrice:"1400",
-            color:"orange",
+            color:"blue",
             brand:"abibas",
-            description:"made with an the love of an each plant",
+            description:"Achieve style without trying too hard. The Effortless Style Dress offers a laid-back vibe with a refined look, making it an essential piece for the modern woman’s wardrobe. Perfect for any occasion, this dress delivers comfort and elegance with minimal effort.",
             id:"unaa",
             ImSrc:"./WomenTshirt/unaa.png",
             sizes:["S","XL","2XL"],
