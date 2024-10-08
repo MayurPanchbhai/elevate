@@ -76,7 +76,7 @@ export const MensDetails = () => {
     }, [imgCount]); 
 
     return (
-        <div className={`${theme ? "bg-black text-white" : ""} h-screen md:h-full py-20  flex flex-col items-center`}>
+        <div className={`${theme ? "bg-black text-white" : ""} h-full md:h-full py-20  flex flex-col items-center`}>
             <div className="flex w-full md:justify-around flex-col items-center md:items-start md:pt-3 md:flex-row">
                 <div className="rotating-text border-cyan-100  border-[1px] md:w-4/12 w-5/6 rounded-md py-4">
                     <div className="flex flex-col items-center">
@@ -152,12 +152,12 @@ export const MensDetails = () => {
                             </div>
                         </div>
                         <div  className="flex flex-col md:flex-row md:space-x-4 my-4 text-sm font-medium">
-                            <div className="flex-auto  flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
-                                <button className={`h-10 w-5/12 md:w-2/6 px-4 md:px-6 font-semibold rounded-md border-[1px] ${theme ? "text-white border-slate-700 " : ""}`}  >
+                            <div className="flex-auto flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
+                                <button className={`h-10  px-4 md:px-6 font-semibold rounded-md border-[1px] ${theme ? "text-white border-slate-700 " : ""}`}  >
                                     {/* onClick={handleNavigate} */}
                                     Buy now
                                 </button>
-                                <button className={`h-10 w-5/12 md:w-2/6 px-4 md:px-6 font-semibold rounded-md border-[1px] ${theme ? "text-white border-slate-700 " : ""}`}  onClick={()=>handleCarItem(id, "MTshirt", name,selectSize , pieces)}>
+                                <button className={`h-10   px-4  md:px-6 font-semibold rounded-md border-[1px] ${theme ? "text-white border-slate-700 " : ""}`}  onClick={()=>handleCarItem(id ,"WTshirt" , name , selectSize ,pieces)}>
                                     
                                     Add to cart
                                 </button>
@@ -167,8 +167,6 @@ export const MensDetails = () => {
                                     <button onClick={()=>handleQuant("+")}  className={`h-10 px-4 md:px-3 font-semibold     rounded-md border-[1px] ${theme ? "text-white border-slate-700 " : ""}`}>+</button>
 
                                 </div>
-                                
-
                             </div>
             
                         </div> 

@@ -76,7 +76,7 @@ export const WomenDetails = () => {
     }, [imgCount]); 
 
     return (
-        <div className={`${theme ? "bg-black text-white" : ""} h-screen md:h-full py-20  flex flex-col items-center`}>
+        <div className={`${theme ? "bg-black text-white" : ""} h-full md:h-full py-20  flex flex-col items-center`}>
             <div className="flex w-full md:justify-around flex-col items-center md:items-start md:pt-3 md:flex-row">
                 <div className="rotating-text border-cyan-100  border-[1px] md:w-4/12 w-5/6 rounded-md py-4">
                     <div className="flex flex-col items-center">

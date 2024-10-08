@@ -78,7 +78,7 @@ function Cart() {
   }
 
   return (
-    <div className={`${theme ? "bg-black text-white" : "bg-white text-black"}  w-full  md:h-max  flex md:pt-32 pb-20 md:justify-start flex-col items-center pt-24 md:flex-row gap-3 `}>
+    <div className={`${theme ? "bg-black text-white" : "bg-white text-black"}  w-full  md:h-max  flex md:pt-32 pb-24 md:justify-start flex-col items-center pt-24  md:flex-row gap-3 `}>
       <div className='w-11/12  md:w-8/12 md:ml-10 h-max'>
         <ul className=' border-[1px] rounded-lg px-5 md:mb-52'>
           <li className='flex justify-between h-16 items-center border-b-2'>
@@ -87,7 +87,7 @@ function Cart() {
           </li>
 
           {cartState.map((items, index) => (
-            <li className='flex relative  py-2 border-b-[1px]' key={index} >
+            <li className='flex relative  py-5 border-b-[1px]' key={index} >
               <div className='w-28'>
                 <img src={items.ImSrc} alt={items.name} className='h-32' />
               </div>
@@ -103,7 +103,7 @@ function Cart() {
                   <p className={`text-green-600 font-medium text-sm`}>{(((items.ActualPrice - items.price) / items.ActualPrice) * 100).toFixed(0)}% Off</p>
                 </div>
               </div>
-              <div className='flex flex-col absolute md:right-2 right-0 top-11 md:top-0 h-full justify-center '>
+              <div className='flex flex-col absolute md:right-2 right-0 top-14 md:top-0 h-full justify-center '>
                 <div className="flex">
                   <button onClick={() => handleQuant("-", index)} className={`md:h-10 h-6 px-4 md:px-3 font-semibold rounded-md border-[1px] ${theme ? "text-white border-slate-700 " : ""}`}>-</button>
                   <p className={`md:h-10 h-6 px-4 md:w-3 w-2 flex justify-center md:text-base text-sm items-center font-semibold border-y-[1px] ${theme ? "text-white border-slate-700 " : ""}`}>{items.quantity}</p> {/* Display quantity */}
